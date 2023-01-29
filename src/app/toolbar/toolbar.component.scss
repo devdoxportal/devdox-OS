@@ -1,0 +1,31 @@
+.toolbar-container {
+  width: 100%;
+  background-color: white;
+  height: 25px;
+  border-bottom: 2px solid rgb(180, 180, 180);
+  float: left;
+}
+
+.toolbar-item {
+  margin: 0;
+  height: 100%;
+  width: 5%;
+  padding-top: 3px;
+  text-align: center;
+  border-right: 1px solid rgb(211, 211, 211);
+  display: inline-block;
+  cursor:pointer;
+}
+
+.toolbar-item:last-child {
+  border-right: 0;
+}
+
+.toolbar-item p {
+  margin: 0;
+  display: inline;
+}
+
+.toolbar-item-hover {
+    background-color: rgb(209, 209, 209);
+}

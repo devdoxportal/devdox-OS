@@ -1,0 +1,18 @@
+.desktop-container {
+  background-color: rgb(223, 223, 223);
+  position: absolute;
+  top: 47px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.desktop-image {
+  width: 15%;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  transform: translate(50%, 50%);
+}
